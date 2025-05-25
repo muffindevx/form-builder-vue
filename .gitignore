@@ -1,0 +1,97 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Cache de dependencias
+node_modules/
+.pnpm-store/
+
+# Salida de build (directorios de distribución)
+dist/
+dist-ssr/
+*.local
+
+# Cubertura de pruebas
+/coverage
+.nyc_output
+
+# Archivos de entorno
+.env.local
+.env.*.local
+# Excepción para .env.example o plantillas de entorno, si los usas
+!.env.example
+!.env.sample
+
+# Archivos de configuración de IDEs
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Archivos de macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+# Thumbnails
+._*
+# Archivos de recursos bifurcados (Resource fork)
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Archivos de desarrollo específicos de Vue CLI / Vite
+# (algunos ya están cubiertos por `dist/` pero es bueno ser explícito)
+/public/hot-update.js # Vue CLI
+vite-*.js            # Vite dev server cache
+
+# Archivos de compilación específicos de Vue
+*.tsbuildinfo
+
+# Archivos de configuración de editores comunes
+*.bak
+*.tmp
+
+# Dependencias opcionales que no quieres comitear
+# (raro, pero posible si tienes binarios o algo así)
+# optional_dependencies/
+
+# Reportes de Webpack Bundle Analyzer
+webpack-bundle-analyzer-report.html
+report.html # Vite Bundle Analyzer
+stats.json  # Vite Bundle Analyzer
+
+# Otros
+.eslintcache
+.stylelintcache
+.prettiercache
+.history # VSCode Local History extension
+
+# Cypress (si lo usas para e2e testing)
+/cypress/videos/
+/cypress/screenshots/
+/cypress/downloads/
+/cypress/logs/
+/cypress/reports/
+
+# Archivos de caché de Vitest (si lo usas para unit testing con Vite)
+.vitest-cache/
+
+# Archivos de Nuxt (si es un proyecto Nuxt)
+.nuxt/
+.output/
+
+# Archivos de Quasar (si es un proyecto Quasar)
+.quasar/
+
+# Archivos de Storybook (si usas Storybook)
+.storybook-static/
+storybook-static/

@@ -1,6 +1,5 @@
-# my-google-form
-
-This template should help get you started developing with Vue 3 in Vite.
+# form-builder-vue
+Practice vue knowledge
 
 ## Recommended IDE Setup
 
